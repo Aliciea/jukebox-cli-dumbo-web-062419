@@ -14,7 +14,6 @@
 
 def help
   #this method should be the same as in jukebox.rb
-  
   songs  = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
