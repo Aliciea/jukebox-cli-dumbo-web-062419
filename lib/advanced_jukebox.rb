@@ -25,6 +25,7 @@ def help
   "Harry Chapin - Cats in the Cradle",
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
+songs.each do |song|
 puts songs 
 end
 
