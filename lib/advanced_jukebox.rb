@@ -61,6 +61,7 @@ def play(my_songs)
     elsif songs.include?(user_response)
     puts "Playing #{user_response}"
   else
+    expect 
     puts "Invalid input, please try again"
   end
 end
