@@ -12,9 +12,10 @@
 # "Graduation Failed" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/07.mp3'
 # }
 
-def help
+def help(songs)
   #this method should be the same as in jukebox.rb
-  songs = [
+  
+  songs  = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
   "Sufjan Stevens - Too Much",
@@ -25,7 +26,7 @@ def help
   "Harry Chapin - Cats in the Cradle",
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
-
+puts songs 
 end
 
 
