@@ -14,17 +14,17 @@
 
 def help
   #this method should be the same as in jukebox.rb
-  help = <<-HELP
-I accept the following commands:
-- help : displays this help message
-- list : displays a list of songs you can play
-- play : lets you choose a song to play
-- exit : exits this program
-HELP
+#   help = <<-HELP
+# I accept the following commands:
+# - help : displays this help message
+# - list : displays a list of songs you can play
+# - play : lets you choose a song to play
+# - exit : exits this program
+# HELP
 
-puts help
+# puts help
 end
-help 
+# help 
 
 
 
@@ -34,7 +34,7 @@ def list(my_songs)
    songs.each_with_index { |item, index|
     puts "#{index+1}. #{item}" }
 end
-
+list(songs)
 
 def play(my_songs)
   #this method is slightly different!
