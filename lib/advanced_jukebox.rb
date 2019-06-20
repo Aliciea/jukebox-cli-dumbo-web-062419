@@ -12,7 +12,7 @@
 # "Graduation Failed" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/07.mp3'
 # }
 
-def help(songs)
+def help
   #this method should be the same as in jukebox.rb
   
   songs  = [
