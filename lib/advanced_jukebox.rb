@@ -31,10 +31,10 @@ end
 def list(my_songs)
   #this method is different! Collect the keys of the my_songs hash and 
   #list the songs by name
-   songs.each_with_index { |item, index|
-    puts "#{index+1}. #{item}" }
+   songs.each_with_index do |item, index|
+    puts "#{index+1}: #{item}"
 end
-list(songs)
+songs
 
 def play(my_songs)
   #this method is slightly different!
